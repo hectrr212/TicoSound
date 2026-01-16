@@ -3,131 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descubre y comparte música costarricense - MusiCR</title>
+    <title>Descubre música costarricense - TicoSound</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
 </head>
 <body>
 
-    <div class="contenedor">
-
-        
-
-        <section class="popular-contenedor">
-
-            <h2>Lo más popular</h2>
-
-            <div class="lista-artistas">
-
-                <h3>Artistas</h3>
-
-                <article class="artista">
-                    <div class="artista-cols">
-                        <div class="artista-img">
-                            <img src="../images/profile.jpg" alt="Artista 1">    
-                        </div>
-                        <p><strong>Los Perros</strong></p>
-                        <p>Banda de Rock...</p>
-                    </div>
-                </article>
-
-                <article class="artista">
-                    <div class="artista-cols">
-                        <div class="artista-img">
-                            <img src="../images/profile.jpg" alt="Artista 2">    
-                        </div>
-                        <p><strong>Los Gatos</strong></p>
-                        <p>Banda de Reggae...</p>
-                    </div>
-                </article>
-
-                <article class="artista">
-                    <div class="artista-cols">
-                        <div class="artista-img">
-                            <img src="../images/profile.jpg" alt="Artista 3">    
-                        </div>
-                        <p><strong>Maricela</strong></p>
-                        <p>Artista de Pop...</p>
-                    
-                    </div>
-                </article>
-
-            </div>
-
-            <div class="lista-albumes">
-
-                <h3>Álbumes</h3>
-
-                <article class="album">
-                    <div class="artista-cols">
-                        <div class="album-img">
-                            <img src="../images/profile.jpg" alt="Álbum 1">
-                        </div>
-                        <p><strong>El Mar</strong></p>
-                        <p>Los Perros</p>
-                    </div>
-                </article>
-
-                <article class="album">
-                    <div class="artista-cols">
-                        <div class="album-img">
-                            <img src="../images/profile.jpg" alt="Álbum 2">
-                        </div>
-                        <p><strong>La Cancha</strong></p>
-                        <p>Adriano Pérez</p>
-                    </div>
-                </article>
-
-                <article class="album">
-                    <div class="artista-cols">
-                        <div class="album-img">
-                            <img src="../images/profile.jpg" alt="Álbum 3">
-                        </div>
-                        <p><strong>Hola</strong></p>
-                        <p>Garbanzos</p>
-                    </div>
-                </article>
-
-            </div>
-        </section>
-
-        <section class="listas-contenedor">
-
-            <h2>Listas de la comunidad</h2>
-
-            <article class="lista">
-                <div class="lista-cols">
-                    <div class="lista-img">
-                        <img src="../images/profile.jpg" alt="Lista 1">
-                    </div>
-                    <p><strong>Música de Limón</strong></p>
-                    <p>Lista dedicada a la música proveniente de la provincia de Limón</p>
-                </div>
-            </article>
-
-            <article class="lista">
-                <div class="lista-cols">
-                    <div class="lista-img">
-                        <img src="../images/profile.jpg" alt="Lista 2">
-                    </div>
-                    <p><strong>Música de Puntarenas</strong></p>
-                    <p>Lista dedicada a la música proveniente de la provincia de Puntarenas</p>
-                </div>
-            </article>
-
-            <article class="lista">
-                <div class="lista-cols">
-                    <div class="lista-img">
-                        <img src="../images/profile.jpg" alt="Lista 1">
-                    </div>
-                    <p><strong>Música de Limón</strong></p>
-                    <p>Lista dedicada la música electrónica realizada por artistas costarricenses</p>
-                </div>
-            </article>
-
-        </section>
-        
+<header class="header">
+    <div class="title-logo">
+        <a href="index.html">
+            <img src="../images/logo.png" alt="Logo" title="TicoSound" height="80">
+        </a>
     </div>
+
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li class="item-nav"><a href="charts.html" class="link-nav">Charts</a></li>
+            <li class="item-nav"><a href="listas.html" class="link-nav">Listas</a></li>
+            <li class="item-nav"><a href="generos.html" class="link-nav">Géneros</a></li>
+        </ul>
+
+        <form action="#" method="get" class="search-box">
+            <input type="search" name="q" placeholder="Buscar...">
+            <button type="submit">
+                <img src="../images/buscar.png" alt="Buscar" height="22">
+            </button>
+        </form>
+
+        <div class="login">
+            <a href="ingresar.html">Ingresar</a>
+        </div>
+    </nav>
+</header>
+
+<h1>Inicio</h1>
+
 
 </body>
 </html>
